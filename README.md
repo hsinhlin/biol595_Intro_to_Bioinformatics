@@ -11,7 +11,8 @@ This repository contains materials for **BIOL 59500 – Introduction to Bioinfor
 The project demonstrates frame detection, biologically meaningful scoring with BLOSUM62, and paired-line alignment output of amino acids and DNA codons. 
 
 **Contents:**
-> pp1/
+```
+pp1/
 ├── report.md        # Project write-up and explanation
 ├── pp1.ipynb        # Python code for translation, alignment, and frame validation
 └── data/
@@ -20,4 +21,4 @@ The project demonstrates frame detection, biologically meaningful scoring with B
     ├── GCF_000005845.2_ASM584v2_cds_from_genomic.fna
     ├── GCF_000005845.2_ASM584v2_protein.faa
     └── BLOSUM62.txt
-
+```
