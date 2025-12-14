@@ -6,6 +6,17 @@ This repository contains materials for **BIOL 59500 – Introduction to Bioinfor
 
 ## Programming Projects
 
+### Installation / Requirements
+
+Tested on **macOS** with **Python 3.12.4**.
+
+Install dependencies:
+```bash
+python3 -m pip install --upgrade pip
+python3 -m pip install biopython
+python3 -c "import Bio; print(Bio.__version__)"
+```
+
 ### [PP1: DNA–Protein Alignment (40-55 pts)](https://github.itap.purdue.edu/lin2208/biol595_Bioinformatics/tree/main/pp1)
 **Program Project 1** implements a DNA–protein alignment pipeline using translated reading frames and local alignment (Smith–Waterman).  
 The project demonstrates frame detection, biologically meaningful scoring with BLOSUM62, and paired-line alignment output of amino acids and DNA codons. 
