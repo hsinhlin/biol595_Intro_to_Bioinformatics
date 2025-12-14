@@ -10,7 +10,7 @@ This repository contains materials for **BIOL 59500 – Introduction to Bioinfor
 
 Tested on **macOS** with **Python 3.12.4**.
 
-Install dependencies:
+Install Biopython (Cock et al., 2009):
 ```bash
 python3 -m pip install --upgrade pip
 python3 -m pip install biopython
@@ -39,3 +39,5 @@ pp1/
 ```
 
 ```
+## References
+Cock PA, Antao T, Chang JT, Chapman BA, Cox CJ, Dalke A, Friedberg I, Hamelryck T, Kauff F, Wilczynski B and de Hoon MJL (2009) Biopython: freely available Python tools for computational molecular biology and bioinformatics. Bioinformatics, 25, 1422-1423
