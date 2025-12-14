@@ -22,4 +22,9 @@ pp1/
     ├── GCF_000005845.2_ASM584v2_protein.faa
     └── BLOSUM62.txt
 ```
-### [PP3: Sequence Randomization](https://github.itap.purdue.edu/lin2208/biol595_Bioinformatics/tree/main/pp3)
+### [PP3: Sequence Randomization (20-40 pts)](https://github.itap.purdue.edu/lin2208/biol595_Bioinformatics/tree/main/pp3)
+
+**Contents:**
+```
+
+```
