@@ -6,7 +6,7 @@ This repository contains materials for **BIOL 59500 – Introduction to Bioinfor
 
 ## Programming Projects
 
-### [PP1: DNA–Protein Alignment](https://github.itap.purdue.edu/lin2208/biol595_Bioinformatics/tree/main/pp1)
+### [PP1: DNA–Protein Alignment (40-55 pts)](https://github.itap.purdue.edu/lin2208/biol595_Bioinformatics/tree/main/pp1)
 **Program Project 1** implements a DNA–protein alignment pipeline using translated reading frames and local alignment (Smith–Waterman).  
 The project demonstrates frame detection, biologically meaningful scoring with BLOSUM62, and paired-line alignment output of amino acids and DNA codons. 
 
