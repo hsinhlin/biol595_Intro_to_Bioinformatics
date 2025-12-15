@@ -71,3 +71,6 @@ pp3/
 ```
 ## References
 Cock PA, Antao T, Chang JT, Chapman BA, Cox CJ, Dalke A, Friedberg I, Hamelryck T, Kauff F, Wilczynski B and de Hoon MJL (2009) Biopython: freely available Python tools for computational molecular biology and bioinformatics. Bioinformatics, 25, 1422-1423
+
+## AI Acknowledgements
+When writing Project 1, I used ChatGPT to help guide me on how to locate and download publicly available sequence data from NCBI. I also use it to revise my paragraphs in both Project 1 and 3.
