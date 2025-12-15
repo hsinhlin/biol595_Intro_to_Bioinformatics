@@ -10,6 +10,10 @@ This repository contains materials for **Purdue University BIOL 59500 – Introd
 
 Tested on **macOS** with **Python 3.12.4**.
 
+**Requirements**
+- Python 3.8 or newer
+- Biopython
+
 Install Biopython (Cock et al., 2009):
 ```bash
 python3 -m pip install --upgrade pip
