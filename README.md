@@ -25,7 +25,7 @@ The project demonstrates frame detection, biologically meaningful scoring with B
 ```
 pp1/
 ├── cds_data.md      # Data Acquisition information write-up and explanation
-├── pp1.ipynb        # Python code for translation, alignment, and frame validation
+├── pp1.ipynb        <- report + code 
 └── data/
     ├── real_cds.fa
     ├── real_protein.fa
