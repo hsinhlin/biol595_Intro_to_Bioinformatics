@@ -4,6 +4,8 @@ Tiffany Lin lin2208@purdue.edu
 
 This repository contains materials for **Purdue University BIOL 59500 – Introduction to Bioinformatics**, including **extra credit programming projects**.
 
+Last Update: Dec 15th, 2025
+
 ## Programming Projects
 
 ### Installation / Requirements
