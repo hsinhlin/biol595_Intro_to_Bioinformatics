@@ -28,7 +28,9 @@ python3 -c "import Bio; print(Bio.__version__)"
 The project demonstrates frame detection, biologically meaningful scoring with BLOSUM62, and paired-line alignment output of amino acids and DNA codons. 
 
 **How to run**
-- Open `pp1/pp1.ipynb` and run all cells from top to bottom.
+- Open `pp1/pp1.ipynb` and run all cells from top to bottom **2 times** .
+> The first run, execute all cells that are provided for trying the program on a **Synthetic Sequence**.
+> The second time, **comment out 1.1 Synthetic Test Sequence: Create a small data for testing (~50 bp)** can uncomment **1.2 RefSeq CDS and protein data (E. coli)** to run the analysis using the real biological sequences.
 - The notebook performs DNA–protein alignment using translated reading frames.
 - `cds_data.md` documents how the CDS and protein sequences were obtained and prepared.
 - Input FASTA test files are provided in `pp1/data/`.
