@@ -37,7 +37,11 @@ pp1/
 
 **Contents:**
 ```
-
+pp3/
+├── pp3.ipynb   ← report + code
+└── data/
+    ├── real_protein.fa
+    └── real_cds.fa
 ```
 ## References
 Cock PA, Antao T, Chang JT, Chapman BA, Cox CJ, Dalke A, Friedberg I, Hamelryck T, Kauff F, Wilczynski B and de Hoon MJL (2009) Biopython: freely available Python tools for computational molecular biology and bioinformatics. Bioinformatics, 25, 1422-1423
