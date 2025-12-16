@@ -2,13 +2,13 @@
 
 ## Introduction
 
-The goal of this project is to align a DNA sequence to a protein sequence based on translation and forward reading-frame detection. To ensure that the alignment reflects true biological coding structure rather than random sequence artifacts, a biologically annotated coding sequence was used after we test the small artificial ~50 bp sequence.
+The goal of this project is to align a DNA sequence to a protein sequence based on translation and forward reading-frame detection. To ensure that the alignment reflects true biological coding structure rather than random sequence artifacts, a biologically annotated coding sequence was used after testing a small artificial ~50 bp sequence.
 
 ### Why use a coding DNA sequence (CDS)?
 
-**Using an arbitrary genomic DNA sequence would introduce large non-coding regions, frequent premature stop codons, and frame disruptions that are unrelated to the alignment method itself.** These features would confound interpretation of alignment scores and obscure true reading-frame signals.
+**Using an arbitrary genomic DNA sequence would introduce large non-coding regions, frequent premature stop codons, and frame disruptions that are unrelated to the alignment method itself.** These features would mistake alignment scores and true reading-frame signals.
 
-Therefore, we specifically use a **coding DNA sequence (CDS)**. A CDS is a contiguous nucleotide region that encodes a functional protein and is annotated with a defined start codon, reading frame, and stop codon. Using a CDS ensures that:
+Therefore, I specifically use a **coding DNA sequence (CDS)**. A CDS is a contiguous nucleotide region that encodes a functional protein and is annotated with a defined start codon, reading frame, and stop codon. Using a CDS ensures that:
 - Exactly one forward reading frame corresponds to the true protein
 - Alternative frames contain frequent stop codons or mismatches
 - Differences in alignment scores across frames reflect real frame structure rather than noise
@@ -32,7 +32,7 @@ FYI: You can choose any other CDS sequence for testing. The same workflow can be
 ### Download data from bash terminal
 ```bash
 # change to your own path
-cd /Users/rusher/Desktop/biol595_extra_credit/pp1/data 
+cd /pp1/data 
 curl -L -O https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_cds_from_genomic.fna.gz
 curl -L -O https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_protein.faa.gz
 
